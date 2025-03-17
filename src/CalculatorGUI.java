@@ -29,6 +29,7 @@ public class CalculatorGUI extends JFrame {
             }
         });
     }
+
     private void berechneBruch() {
         try {
             int z1 = Integer.parseInt(zaehler1.getText());
