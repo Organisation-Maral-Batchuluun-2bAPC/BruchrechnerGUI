@@ -81,7 +81,6 @@ public class CalculatorGUI extends JFrame {
         }
         return berechneGGT(b, a % b);
     }
-
     public static void main(String[] args) {
         SwingUtilities.invokeLater(CalculatorGUI::new);
     }
